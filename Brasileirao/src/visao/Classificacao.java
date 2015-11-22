@@ -32,13 +32,13 @@ public class Classificacao<T> extends HttpServlet {
 		Tabela time8 = new Tabela("Palmeiras", 48, 32, 13);
 		Tabela time9 = new Tabela("Sport", 49, 32, 17);
 		Tabela time10 = new Tabela("Internacional", 50, 32, -1);
-		Tabela time11 = new Tabela("São Paulo", 50, 32, 5);
+		Tabela time11 = new Tabela("SÃ£o Paulo", 50, 32, 5);
 		Tabela time12 = new Tabela("Cruzeiro", 44, 32, 4);
 		Tabela time13 = new Tabela("Ponte Preta", 47, 32, -5);
 		Tabela time14 = new Tabela("Atletico-PR", 42, 32, -5);
 		Tabela time15 = new Tabela("Chapecoense", 39, 32, -7);
 		Tabela time16 = new Tabela("Figueirense", 35, 32, -14);
-		Tabela time17 = new Tabela("Avaí", 34, 32, -21);
+		Tabela time17 = new Tabela("AvaÃ­", 34, 32, -21);
 		Tabela time18 = new Tabela("Coritiba", 33, 32, -15);
 		Tabela time19 = new Tabela("Joinvile", 30, 32, -14);
 		Tabela time20 = new Tabela("Goias", 31, 32, -7);
@@ -69,7 +69,7 @@ public class Classificacao<T> extends HttpServlet {
 		out.println("<HTML><HEAD><TITLE>");
 		out.println("Tabela");
 		out.println("</TITLE></HEAD><BODY>");
-		out.println("<H1>Classificação</H1>");
+		out.println("<H1>ClassificaÃ§Ã£o</H1>");
 		out.println("<TABLE BORDER='1'><TR>");
 		out.println("<TD COLSPAN='2' ALIGN='CENTER'>TIMES</TD><TD>PONTOS</TD><TD>JOGOS</TD><TD>SALDO</TD>");
 		/*
